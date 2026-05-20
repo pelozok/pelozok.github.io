@@ -70,9 +70,9 @@
       personalTitle: 'Proyectos personales',
       personalSub: 'Trabajo independiente — para mi comunidad y para experimentar.',
       iglesiaDesc:
-        'Sitio web institucional para una comunidad eclesial. Diseño, desarrollo y mantenimiento — desde cero hasta producción.',
+        'Sitio institucional para una comunidad eclesial. Construido en <strong>Next.js</strong> (App Router) sobre Vercel, con i18n ES/EN. Diseño, desarrollo y mantenimiento desde cero.',
       clearbooksDesc:
-        'Herramienta personal para el control mensual y quincenal de mi <strong>presupuesto y salario</strong>. La construí para ordenar mis finanzas — visualización, categorías de gasto e ingresos. Hosteada en GitHub Pages.',
+        'Herramienta personal para el control mensual y quincenal de mi <strong>presupuesto y salario</strong>. SPA en <strong>React + Vite</strong> con Tailwind, gráficas en Recharts y persistencia en Firebase.',
 
       experienceTitle: 'Experiencia',
       dlgRole: 'Software Developer &amp; AI Solutions Engineer',
@@ -182,9 +182,9 @@
       personalTitle: 'Personal projects',
       personalSub: 'Independent work — for my community and to experiment.',
       iglesiaDesc:
-        'Institutional website for a church community. Design, development, and maintenance — from zero to production.',
+        'Institutional site for a church community. Built with <strong>Next.js</strong> (App Router) on Vercel, with ES/EN i18n. Design, development, and maintenance from scratch.',
       clearbooksDesc:
-        'Personal tool to track my <strong>monthly and bi-weekly budget and salary</strong>. I built it to keep my finances tidy — visualization, expense and income categories. Hosted on GitHub Pages.',
+        'Personal tool to track my <strong>monthly and bi-weekly budget and salary</strong>. An SPA in <strong>React + Vite</strong> with Tailwind, Recharts for charts, and Firebase for persistence.',
 
       experienceTitle: 'Experience',
       dlgRole: 'Software Developer &amp; AI Solutions Engineer',
