@@ -108,7 +108,6 @@
       contactTitle: 'Contacto',
       contactSub:
         '¿Tenés un proyecto de IA o automatización en mente? Escribime o <a class="inline-link" href="./assets/files/Kevin-Pelozo-Retamar-CV-2026.pdf" download>descargá mi CV</a>.',
-      contactPhone: 'Teléfono',
 
       footerBuilt: 'Hecho a mano con HTML, CSS y JS',
       footerUpdated: 'Actualizado:',
@@ -221,7 +220,6 @@
       contactTitle: 'Contact',
       contactSub:
         'Got an AI or automation project in mind? Drop me a line or <a class="inline-link" href="./assets/files/Kevin-Pelozo-Retamar-CV-2026.pdf" download>download my CV</a>.',
-      contactPhone: 'Phone',
 
       footerBuilt: 'Hand-built with HTML, CSS and JS',
       footerUpdated: 'Last updated:',

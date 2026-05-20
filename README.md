@@ -68,7 +68,6 @@ git push
 ## Contact
 
 - Email — kevindp2008@gmail.com
-- Phone — +506 7007-3757
 - LinkedIn — [/in/kevin-pelozo](https://www.linkedin.com/in/kevin-pelozo/)
 - GitHub — [@pelozok](https://github.com/pelozok)
 
