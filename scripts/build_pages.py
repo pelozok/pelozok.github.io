@@ -11,6 +11,7 @@ import json, os, sys
 
 ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = '2026-10-14'
+GOOGLE_SITE_VERIFICATION = 'KoqcNVLMUKf5UjijdqP9jLMYQJYydatEaTn1OUhHQqY'  # content value of the Search Console HTML-tag method; empty = tag omitted
 
 # ---------------------------------------------------------------- geometry
 GW, GH, NW, NH = 760, 600, 158, 96
@@ -433,6 +434,7 @@ def page(t):
           </div>''')
     points = '\n'.join(f'                <li>{p}</li>' for p in t['xp_points'])
     facts = '\n'.join(f'          <div><dt>{dt}</dt>' + ''.join(f'<dd>{d}</dd>' for d in dds) + '</div>' for dt, dds in t['facts'])
+    verification = f'  <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">\n' if GOOGLE_SITE_VERIFICATION else ''
     return f'''<!DOCTYPE html>
 <html lang="{t['lang']}">
 <head>
@@ -445,7 +447,7 @@ def page(t):
   <meta name="description" content="{t['desc']}">
   <meta name="author" content="Kevin Daniel Pelozo Retamar">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <link rel="canonical" href="{url}">
+{verification}  <link rel="canonical" href="{url}">
   <link rel="alternate" hreflang="es" href="https://pelozok.github.io/">
   <link rel="alternate" hreflang="en" href="https://pelozok.github.io/en/">
   <link rel="alternate" hreflang="x-default" href="https://pelozok.github.io/">
