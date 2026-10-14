@@ -960,7 +960,7 @@ a.node:active { transform: scale(0.98); }
 .graph [data-id='qa'] { left: 52.105%; top: 74.000%; width: 20.789%; height: 16.000%; }
 .graph [data-id='ai'] { left: 77.105%; top: 4.000%; width: 20.789%; height: 16.000%; }
 .graph [data-id='fw'] { left: 77.105%; top: 36.667%; width: 20.789%; height: 16.000%; }
-.graph [data-id='next'] { left: 77.105%; top: 70.000%; width: 20.789%; height: 16.000%; }
+.graph [data-id='own'] { left: 77.105%; top: 63.333%; width: 20.789%; height: 16.000%; }
 .flowchart [data-id='inv'] { left: 2.632%; top: 8.000%; width: 22.368%; height: 19.200%; }
 .flowchart [data-id='ocr'] { left: 38.816%; top: 8.000%; width: 22.368%; height: 19.200%; }
 .flowchart [data-id='finy'] { left: 75.000%; top: 8.000%; width: 22.368%; height: 19.200%; }

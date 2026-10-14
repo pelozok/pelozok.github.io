@@ -26,11 +26,11 @@ GRAPH = [  # id, col, y, kind, href, extra classes
     ('qa',    'C', 444, 'ops',   '#skills', ''),
     ('ai',    'D', 24,  'ai',    '#skills', ''),
     ('fw',    'D', 220, 'ai',    '#finwaise', 'is-output'),
-    ('next',  'D', 420, 'base',  '#contact', 'is-next'),
+    ('own',   'D', 380, 'base',  '#work', ''),
 ]
 GEDGES = [('uam', 'wp'), ('uam', 'rails'), ('uam', 'react'), ('wp', 'api'), ('wp', 'infra'),
           ('rails', 'api'), ('rails', 'infra'), ('react', 'qa'), ('api', 'ai'), ('infra', 'fw'),
-          ('qa', 'fw'), ('ai', 'fw'), ('fw', 'next'), ('fin', 'fw')]
+          ('qa', 'fw'), ('ai', 'fw'), ('react', 'own'), ('fin', 'fw')]
 
 FW, FH, FNW = 760, 500, 170
 FLOW = [
@@ -84,6 +84,8 @@ def col_of(nid):
     return next(n[1] for n in GRAPH if n[0] == nid)
 
 def graph_edge(a, b):
+    if (a, b) == ('react', 'own'):  # through the free channel between C nodes
+        return 'M364 424 H372 Q380 424 380 416 V412 Q380 404 388 404 H562 Q570 404 570 412 V420 Q570 428 578 428 H586'
     if (a, b) == ('fin', 'fw'):  # the long thread: down the first gutter, along the floor, up the last
         return 'M174 388 H182 Q190 388 190 396 V548 Q190 556 198 556 H562 Q570 556 570 548 V276 Q570 268 578 268 H586'
     ax, ay, aw, ah = gbox(a); bx, by, bw, bh = gbox(b)
@@ -136,7 +138,7 @@ T = {
   role='Software Engineer · <em>IA aplicada</em>',
   lede='Programo de punta a punta: TypeScript, React, WordPress, APIs e infraestructura en AWS. Hoy sumo IA a todo eso, en producción.',
   cv='Descargar CV', mail='Escribime',
-  graph_label='Grafo de mi experiencia: formación, web, plataforma e IA convergen en Finwaise; el próximo nodo es tu equipo.',
+  graph_label='Grafo de mi experiencia: formación, web, plataforma e IA convergen en Finwaise, junto a mis proyectos propios.',
   graph_note='mi experiencia, como un grafo',
   nodes={
    'uam': ('formación', 'Ingeniería en Sistemas', 'UAM, 2015'),
@@ -149,7 +151,7 @@ T = {
    'qa': ('calidad', 'Testing E2E', 'Playwright'),
    'ai': ('ia', 'IA aplicada', 'LLMs y agentes'),
    'fw': ('hoy', 'Finwaise', 'ERP con IA nativa'),
-   'next': ('próximo', 'Tu equipo', 'remoto'),
+   'own': ('propios', 'Proyectos propios', 'Iglesia Central, Clear Books'),
   },
   skills_title='Todo el stack, y la IA encima.',
   skills_intro='Programo para clientes reales desde 2019. La IA no reemplaza ese oficio: lo multiplica.',
@@ -221,8 +223,8 @@ T = {
          ('certificaciones', ['GitHub para programadores, LinkedIn Learning, 2021', 'Meta Ads (Facebook, Instagram, WhatsApp), 2021', 'JavaScript, Udemy, 2024']),
          ('idiomas', ['<strong>Español</strong> nativo', '<strong>Inglés</strong> B2, profesional']),
          ('ciudadanía', ['<strong>Polaca</strong> y <strong>argentina</strong>', 'Vivo en Costa Rica'])],
-  contact_title='Próximo nodo: <em>tu equipo</em>.',
-  contact_lede='Busco un rol remoto como Software o AI Engineer. Respondo rápido por correo o LinkedIn.',
+  contact_title='<em>Hablemos</em>.',
+  contact_lede='Para proyectos, colaboraciones o para conversar sobre software e IA en producción. Respondo rápido por correo o LinkedIn.',
   updated=f'Actualizado el <time datetime="{TODAY}">13 de octubre de 2026</time>.',
  ),
 }
@@ -232,7 +234,7 @@ EN_NODES = {
  'wp': ('web', 'WordPress · PHP · Amplify', '50+ sites'), 'rails': ('backend', 'Bots &amp; backends', 'Ruby on Jets, 2022 - 24'),
  'react': ('frontend', 'TypeScript · React', 'Next.js, interfaces'), 'api': ('integrations', 'APIs &amp; data', 'scraping, Metabase and more'),
  'infra': ('infra', 'AWS · Docker', '99.9% uptime'), 'qa': ('quality', 'E2E testing', 'Playwright'),
- 'ai': ('ai', 'Applied AI', 'LLMs and agents'), 'fw': ('now', 'Finwaise', 'AI-native ERP'), 'next': ('next', 'Your team', 'remote'),
+ 'ai': ('ai', 'Applied AI', 'LLMs and agents'), 'fw': ('now', 'Finwaise', 'AI-native ERP'), 'own': ('own', 'Own projects', 'Iglesia Central, Clear Books'),
 }
 es = T['es']
 T['en'] = dict(es,
@@ -247,7 +249,7 @@ T['en'] = dict(es,
   role='Software Engineer · <em>applied AI</em>',
   lede='I build end to end: TypeScript, React, WordPress, APIs and AWS infrastructure. Now I bring AI into all of it, in production.',
   cv='Download CV', mail='Email me',
-  graph_label='Graph of my experience: education, web, platform and AI converge on Finwaise; the next node is your team.',
+  graph_label='Graph of my experience: education, web, platform and AI converge on Finwaise, next to my own projects.',
   graph_note='my experience, as a graph',
   nodes=EN_NODES,
   skills_title='The whole stack, with AI on top.',
@@ -320,8 +322,8 @@ T['en'] = dict(es,
          ('certifications', ['GitHub for developers, LinkedIn Learning, 2021', 'Meta Ads (Facebook, Instagram, WhatsApp), 2021', 'JavaScript, Udemy, 2024']),
          ('languages', ['<strong>Spanish</strong> native', '<strong>English</strong> B2, professional']),
          ('citizenship', ['<strong>Polish</strong> and <strong>Argentinian</strong>', 'Based in Costa Rica'])],
-  contact_title='Next node: <em>your team</em>.',
-  contact_lede='I am looking for a remote Software or AI Engineer role. I reply quickly by email or LinkedIn.',
+  contact_title='<em>Let\'s talk</em>.',
+  contact_lede='For projects, collaborations or a conversation about software and AI in production. I reply quickly by email or LinkedIn.',
   updated=f'Updated <time datetime="{TODAY}">October 13, 2026</time>.',
 )
 

@@ -31,6 +31,7 @@ A complete software engineer who builds with AI, not a "workflows and agents" sp
 
 ## Brand Commitments
 - Copy may be edited and shortened (user approved), without inventing facts.
+- Discreet about job search (user decision 2026-10-13): his current employer may view the site, CV and LinkedIn. No "looking for a role", "your team / next node" or "open to remote" wording in public surfaces; the graph ends at deLaGuayaba / Finwaise and own projects; contact reads "Let's talk".
 - Contact: kevindp2008@gmail.com, linkedin.com/in/kevin-pelozo, github.com/pelozok.
 
 ## Product Principles

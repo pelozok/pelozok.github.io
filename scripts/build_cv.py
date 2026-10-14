@@ -17,7 +17,7 @@ C = {
  'en': dict(
   file='Kevin-Pelozo-Retamar-CV-2026.pdf',
   role='Software Engineer · Applied AI',
-  contact=['kevindp2008@gmail.com', '(+506) 7007-3757', 'Costa Rica · open to remote', 'pelozok.github.io', 'linkedin.com/in/kevin-pelozo', 'github.com/pelozok'],
+  contact=['kevindp2008@gmail.com', '(+506) 7007-3757', 'San José, Costa Rica', 'pelozok.github.io', 'linkedin.com/in/kevin-pelozo', 'github.com/pelozok'],
   summary='Software engineer with 7+ years shipping production software end to end: TypeScript, React and Next.js, WordPress and PHP, APIs, data and AWS infrastructure. Today I bring AI into real products: LLMs inside Finwaise, an AI-native ERP, agentic development with Claude Code and MCP, document pipelines, E2E testing and generative AI for marketing. Background in finance and process analysis.',
   h_xp='Experience', h_proj='Own projects', h_skills='Skills', h_edu='Education', h_cert='Certifications', h_lang='Languages', h_cit='Citizenship',
   job='Software Developer &amp; AI Solutions Engineer', org='deLaGuayaba S.A. · Costa Rica', when='Apr 2019 - Present',
@@ -61,7 +61,7 @@ C = {
  'es': dict(
   file='Kevin-Pelozo-Retamar-CV-2026-ES.pdf',
   role='Software Engineer · IA aplicada',
-  contact=['kevindp2008@gmail.com', '(+506) 7007-3757', 'Costa Rica · disponible remoto', 'pelozok.github.io', 'linkedin.com/in/kevin-pelozo', 'github.com/pelozok'],
+  contact=['kevindp2008@gmail.com', '(+506) 7007-3757', 'San José, Costa Rica', 'pelozok.github.io', 'linkedin.com/in/kevin-pelozo', 'github.com/pelozok'],
   summary='Ingeniero de software con más de 7 años llevando software a producción de punta a punta: TypeScript, React y Next.js, WordPress y PHP, APIs, datos e infraestructura en AWS. Hoy sumo IA a productos reales: LLMs en Finwaise, un ERP con IA nativa, desarrollo agéntico con Claude Code y MCP, pipelines de documentos, testing E2E e IA generativa para mercadeo. Base en finanzas y análisis de procesos.',
   h_xp='Experiencia', h_proj='Proyectos propios', h_skills='Habilidades', h_edu='Educación', h_cert='Certificaciones', h_lang='Idiomas', h_cit='Ciudadanía',
   job='Software Developer &amp; AI Solutions Engineer', org='deLaGuayaba S.A. · Costa Rica', when='Abr 2019 - Presente',
