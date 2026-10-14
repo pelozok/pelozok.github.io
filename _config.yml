@@ -1,0 +1,6 @@
+# GitHub Pages: keep design/working docs out of the published site
+exclude:
+  - PRODUCT.md
+  - DESIGN.md
+  - README.md
+  - scripts

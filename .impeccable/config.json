@@ -1,0 +1,38 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-14T00:58:17.455Z",
+        "reason": "agent: flagged <section> elements have 64-112px padding-block above content (verified in desktop/mobile captures); border-top is the full-bleed section rule"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "en/index.html"
+        ],
+        "createdAt": "2026-10-14T00:58:17.474Z",
+        "reason": "agent: flagged <section> elements have 64-112px padding-block above content (verified in desktop/mobile captures); border-top is the full-bleed section rule"
+      },
+      {
+        "rule": "overused-font",
+        "value": "geist",
+        "createdAt": "2026-10-14T02:36:10.862Z",
+        "reason": "user chose prototype A (Geist + Geist Mono) on 2026-10-13"
+      },
+      {
+        "rule": "overused-font",
+        "value": "geist mono",
+        "createdAt": "2026-10-14T02:36:10.884Z",
+        "reason": "user chose prototype A (Geist + Geist Mono) on 2026-10-13"
+      }
+    ]
+  }
+}

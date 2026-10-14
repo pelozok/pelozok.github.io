@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T02:45:48Z",
+  "title": "Design System: Kevin Pelozo",
+  "extensions": {
+    "colorMeta": {
+      "canvas-grey": {
+        "role": "neutral",
+        "displayName": "Canvas Grey",
+        "canonical": "oklch(97.0% 0.003 264.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#edeef0"
+        ]
+      },
+      "node-white": {
+        "role": "neutral",
+        "displayName": "Node White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "graphite-ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "oklch(17.7% 0.011 260.6)",
+        "tonalRamp": [
+          "#080b10",
+          "#22252b",
+          "#3f4248",
+          "#5e6168",
+          "#7e8389",
+          "#a1a5ac",
+          "#c5c9d1",
+          "#eaeff6"
+        ]
+      },
+      "slate-ink": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "canonical": "oklch(42.5% 0.024 260.1)",
+        "tonalRamp": [
+          "#080b11",
+          "#20252d",
+          "#3c424c",
+          "#5a626e",
+          "#7a8391",
+          "#9da6b3",
+          "#c2cad6",
+          "#e8effa"
+        ]
+      },
+      "pewter-meta": {
+        "role": "neutral",
+        "displayName": "Pewter Meta",
+        "canonical": "oklch(52.2% 0.023 260.1)",
+        "tonalRamp": [
+          "#080b11",
+          "#21252d",
+          "#3c424c",
+          "#5b626d",
+          "#7b8390",
+          "#9ea6b2",
+          "#c2cad5",
+          "#e8eff9"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(90.8% 0.009 258.3)",
+        "tonalRamp": [
+          "#090b0f",
+          "#22252a",
+          "#3f4247",
+          "#5e6167",
+          "#7f8388",
+          "#a1a5ab",
+          "#c5c9cf",
+          "#ebeff5"
+        ]
+      },
+      "grid-dot": {
+        "role": "neutral",
+        "displayName": "Grid Dot",
+        "canonical": "oklch(86.2% 0.011 256.7)",
+        "tonalRamp": [
+          "#080b10",
+          "#22252b",
+          "#3e4248",
+          "#5d6268",
+          "#7e8389",
+          "#a1a5ac",
+          "#c5cad0",
+          "#eaeff6"
+        ]
+      },
+      "kind-base": {
+        "role": "neutral",
+        "displayName": "Base Kind Ink",
+        "canonical": "oklch(17.7% 0.011 260.6)",
+        "tonalRamp": [
+          "#080b10",
+          "#22252b",
+          "#3f4248",
+          "#5e6168",
+          "#7e8389",
+          "#a1a5ac",
+          "#c5c9d1",
+          "#eaeff6"
+        ]
+      },
+      "kind-build": {
+        "role": "secondary",
+        "displayName": "Build Blue",
+        "canonical": "oklch(58.1% 0.229 263.9)",
+        "tonalRamp": [
+          "#020043",
+          "#001070",
+          "#0932a1",
+          "#1f52d4",
+          "#3774ff",
+          "#619dff",
+          "#8cc5ff",
+          "#b8edff"
+        ]
+      },
+      "kind-ops": {
+        "role": "secondary",
+        "displayName": "Ops Green",
+        "canonical": "oklch(56.0% 0.124 159.6)",
+        "tonalRamp": [
+          "#001302",
+          "#003115",
+          "#00512e",
+          "#01744a",
+          "#2a9868",
+          "#61ba8c",
+          "#8fddb3",
+          "#bdffdb"
+        ]
+      },
+      "signal-orange": {
+        "role": "primary",
+        "displayName": "Signal Orange",
+        "canonical": "oklch(67.0% 0.221 36.4)",
+        "tonalRamp": [
+          "#300000",
+          "#5a0000",
+          "#870000",
+          "#b71200",
+          "#e73700",
+          "#ff6d42",
+          "#ff9c75",
+          "#ffc9a6"
+        ]
+      },
+      "signal-orange-text": {
+        "role": "primary",
+        "displayName": "Signal Orange Text",
+        "canonical": "oklch(55.2% 0.184 36.5)",
+        "tonalRamp": [
+          "#2b0000",
+          "#530000",
+          "#7d1000",
+          "#ab2f01",
+          "#d94d24",
+          "#f97a57",
+          "#ffa585",
+          "#ffd0b3"
+        ]
+      },
+      "signal-wash": {
+        "role": "primary",
+        "displayName": "Signal Wash",
+        "canonical": "oklch(96.7% 0.018 48.5)",
+        "tonalRamp": [
+          "#110905",
+          "#2d231e",
+          "#4a3f3a",
+          "#6a5e59",
+          "#8c7f79",
+          "#afa29b",
+          "#d3c6bf",
+          "#f9ebe4"
+        ]
+      },
+      "on-signal": {
+        "role": "neutral",
+        "displayName": "On Signal",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "night-canvas": {
+        "role": "neutral",
+        "displayName": "Night Canvas",
+        "canonical": "oklch(16.8% 0.009 264.3)",
+        "tonalRamp": [
+          "#090b0f",
+          "#23252a",
+          "#404247",
+          "#5f6166",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9cf",
+          "#ebeef5"
+        ],
+        "mode": "dark"
+      },
+      "night-node": {
+        "role": "neutral",
+        "displayName": "Night Node",
+        "canonical": "oklch(21.2% 0.015 261.6)",
+        "tonalRamp": [
+          "#080b12",
+          "#21252d",
+          "#3e424a",
+          "#5c616a",
+          "#7d838c",
+          "#a0a5af",
+          "#c4c9d3",
+          "#e9eff9"
+        ],
+        "mode": "dark"
+      },
+      "night-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "oklch(95.4% 0.005 258.3)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#242527",
+          "#404244",
+          "#606164",
+          "#818285",
+          "#a3a5a8",
+          "#c7c9cc",
+          "#edeff2"
+        ],
+        "mode": "dark"
+      },
+      "night-ink-2": {
+        "role": "neutral",
+        "displayName": "Night Ink 2",
+        "canonical": "oklch(78.8% 0.017 262.7)",
+        "tonalRamp": [
+          "#080b12",
+          "#21252d",
+          "#3d424b",
+          "#5c616b",
+          "#7d838d",
+          "#9fa5b0",
+          "#c3c9d5",
+          "#e8effa"
+        ],
+        "mode": "dark"
+      },
+      "night-meta": {
+        "role": "neutral",
+        "displayName": "Night Meta",
+        "canonical": "oklch(67.4% 0.021 260.2)",
+        "tonalRamp": [
+          "#080b11",
+          "#21252c",
+          "#3d424b",
+          "#5b626c",
+          "#7b838f",
+          "#9ea5b1",
+          "#c3cad4",
+          "#e9eff9"
+        ],
+        "mode": "dark"
+      },
+      "night-hairline": {
+        "role": "neutral",
+        "displayName": "Night Hairline",
+        "canonical": "oklch(29.2% 0.020 260.6)",
+        "tonalRamp": [
+          "#080b10",
+          "#21252c",
+          "#3d424b",
+          "#5b626c",
+          "#7c838f",
+          "#9fa5b1",
+          "#c3c9d4",
+          "#e9eff8"
+        ],
+        "mode": "dark"
+      },
+      "night-dot": {
+        "role": "neutral",
+        "displayName": "Night Dot",
+        "canonical": "oklch(31.2% 0.020 260.6)",
+        "tonalRamp": [
+          "#070b14",
+          "#20252f",
+          "#3c424d",
+          "#5b626d",
+          "#7c838f",
+          "#9ea5b2",
+          "#c2cad6",
+          "#e7effc"
+        ],
+        "mode": "dark"
+      },
+      "night-kind-build": {
+        "role": "secondary",
+        "displayName": "Night Kind Build",
+        "canonical": "oklch(68.9% 0.163 266.0)",
+        "tonalRamp": [
+          "#010133",
+          "#0b1d5b",
+          "#213b86",
+          "#395ab4",
+          "#547be2",
+          "#7aa1ff",
+          "#a2c7ff",
+          "#cbedff"
+        ],
+        "mode": "dark"
+      },
+      "night-kind-ops": {
+        "role": "secondary",
+        "displayName": "Night Kind Ops",
+        "canonical": "oklch(72.2% 0.141 162.3)",
+        "tonalRamp": [
+          "#001402",
+          "#003215",
+          "#00532f",
+          "#00764a",
+          "#009b68",
+          "#4cbd8d",
+          "#81e0b3",
+          "#b2ffdb"
+        ],
+        "mode": "dark"
+      },
+      "night-signal-orange": {
+        "role": "primary",
+        "displayName": "Night Signal Orange",
+        "canonical": "oklch(70.3% 0.194 39.3)",
+        "tonalRamp": [
+          "#2c0000",
+          "#540000",
+          "#800a00",
+          "#ad2c00",
+          "#dc4a02",
+          "#fd784b",
+          "#ffa47b",
+          "#ffcfab"
+        ],
+        "mode": "dark"
+      },
+      "night-signal-orange-text": {
+        "role": "primary",
+        "displayName": "Night Signal Orange Text",
+        "canonical": "oklch(75.3% 0.155 41.6)",
+        "tonalRamp": [
+          "#260000",
+          "#4c0500",
+          "#752200",
+          "#9f3e11",
+          "#cc5c2e",
+          "#ec855d",
+          "#ffae8a",
+          "#ffd7b7"
+        ],
+        "mode": "dark"
+      },
+      "night-signal-wash": {
+        "role": "primary",
+        "displayName": "Night Signal Wash",
+        "canonical": "oklch(22.5% 0.037 44.7)",
+        "tonalRamp": [
+          "#130805",
+          "#30211b",
+          "#503d35",
+          "#725c52",
+          "#967c71",
+          "#b89f95",
+          "#dac4ba",
+          "#feeae1"
+        ],
+        "mode": "dark"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero name only."
+      },
+      "closing": {
+        "displayName": "Closing",
+        "purpose": "Contact \"next node\" headline and the 404 headline."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Bento cell, project group and experience role heads."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Hero lede and section intros."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and lists, 64ch measure, tabular numerals."
+      },
+      "node-title": {
+        "displayName": "Node Title",
+        "purpose": "Bold name inside a node; 17px on output nodes."
+      },
+      "label-mono": {
+        "displayName": "Label Mono",
+        "purpose": "Metadata only: kind labels, dates, stack lines, definition-list terms, canvas captions. Never an eyebrow."
+      }
+    },
+    "shadows": [
+      {
+        "name": "node-lift",
+        "value": "0 1px 2px rgb(14 17 22 / 0.07), 0 3px 8px -4px rgb(14 17 22 / 0.14)",
+        "purpose": "Nodes on a canvas, light mode. The only shadow in the system."
+      },
+      {
+        "name": "node-lift-night",
+        "value": "0 1px 2px rgb(0 0 0 / 0.4), 0 3px 8px -4px rgb(0 0 0 / 0.5)",
+        "purpose": "Nodes on a canvas, dark mode."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Press scales, skip link, external-arrow nudge."
+      },
+      {
+        "name": "duration-control",
+        "value": "160ms",
+        "purpose": "Links, buttons, language switch, arrow nudge."
+      },
+      {
+        "name": "duration-canvas",
+        "value": "200ms",
+        "purpose": "Node and edge opacity during focus dimming; node border and press."
+      },
+      {
+        "name": "press-scale",
+        "value": "scale(0.97) controls / scale(0.98) nodes",
+        "purpose": "Active state feedback."
+      },
+      {
+        "name": "focus-dimming",
+        "value": "unlit nodes 0.3, unlit edges 0.12, lit edges 1 at 2px, flow tokens 0",
+        "purpose": "Hover or focus on a node keeps its neighbourhood and recedes the rest."
+      },
+      {
+        "name": "flow-token",
+        "value": "SVG animateMotion, r 4.5, 3.6s-6s loops, staggered begin 0-2.4s",
+        "purpose": "Kind-colored tokens travel composed edge paths toward the output node."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce -> .flow display none; transitions 0.01ms; smooth scroll off",
+        "purpose": "Tokens are hidden, not paused; the static graph stays complete."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "hero-stack",
+        "value": "1180px"
+      },
+      {
+        "name": "tablet",
+        "value": "1080px"
+      },
+      {
+        "name": "phone",
+        "value": "720px"
+      }
+    ],
+    "fonts": {
+      "self-hosted": [
+        "assets/fonts/geist-latin-wght-normal.woff2",
+        "assets/fonts/geist-latin-ext-wght-normal.woff2",
+        "assets/fonts/geist-mono-latin-wght-normal.woff2"
+      ],
+      "approval": "User chose Geist + Geist Mono (prototype A, 2026-10-13); overused-font detector ignore recorded in .impeccable/config.json."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single solid action (download CV); turns signal orange on hover.",
+      "html": "<a class=\"ds-btn\" href=\"#\"><svg viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10 3v10M5.5 8.5 10 13l4.5-4.5M4 17h12\"/></svg>Download CV</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:8px;height:48px;padding-inline:22px;border-radius:10px;background:var(--ink,#0e1116);color:var(--bg,#f4f5f7);font-family:var(--sans,'Geist',system-ui,sans-serif);font-weight:600;font-size:16px;text-decoration:none;white-space:nowrap;transition:background-color 160ms ease,transform 160ms cubic-bezier(.23,1,.32,1)}.ds-btn svg{width:18px;height:18px}.ds-btn:hover{background:var(--ai,#ff4f12);color:var(--on-ai,#fff)}.ds-btn:active{transform:scale(.97)}.ds-btn:focus-visible{outline:2px solid var(--k-build,#2f6bff);outline-offset:3px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Secondary action beside the button; underline at 35% current color, solid on hover.",
+      "html": "<a class=\"ds-link\" href=\"#\">Write to me</a>",
+      "css": ".ds-link{color:var(--ink,#0e1116);font-family:var(--sans,'Geist',system-ui,sans-serif);font-weight:600;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:.22em;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);transition:text-decoration-color 160ms ease}.ds-link:hover{text-decoration-color:currentColor}.ds-link:focus-visible{outline:2px solid var(--k-build,#2f6bff);outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "chip",
+      "refersTo": "lang-switch",
+      "description": "Mono chip that links to the other language edition.",
+      "html": "<a class=\"ds-lang\" href=\"#\">EN</a>",
+      "css": ".ds-lang{display:inline-grid;place-items:center;height:32px;padding-inline:10px;border:1px solid var(--line,#dde1e7);border-radius:8px;background:var(--surface,#fff);color:var(--ink,#0e1116);font-family:var(--mono,'Geist Mono',ui-monospace,monospace);font-size:13px;text-decoration:none;transition:border-color 160ms ease,transform 160ms cubic-bezier(.23,1,.32,1)}.ds-lang:hover{border-color:var(--ink-3,#626a77)}.ds-lang:active{transform:scale(.97)}.ds-lang:focus-visible{outline:2px solid var(--k-build,#2f6bff);outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "site-header",
+      "description": "Sticky 64px header: orange-square brand, slate links, language switch.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><span></span>Kevin Pelozo</a><nav><a href=\"#\">Skills</a><a href=\"#\">Finwaise</a><a href=\"#\">Projects</a><a href=\"#\">Experience</a><a href=\"#\">Contact</a></nav></header>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:24px;height:64px;padding-inline:24px;background:var(--bg,#f4f5f7);font-family:var(--sans,'Geist',system-ui,sans-serif)}.ds-brand{display:inline-flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em;color:var(--ink,#0e1116);text-decoration:none}.ds-brand span{width:12px;height:12px;border-radius:3px;background:var(--ai,#ff4f12)}.ds-nav nav{display:flex;gap:24px;margin-left:auto;font-size:15px}.ds-nav nav a{color:var(--ink-2,#474f5c);text-decoration:none;padding-block:8px}.ds-nav nav a:hover{color:var(--ink,#0e1116)}.ds-nav a:focus-visible{outline:2px solid var(--k-build,#2f6bff);outline-offset:3px;border-radius:4px}"
+    },
+    {
+      "name": "Node",
+      "kind": "custom",
+      "refersTo": "node",
+      "description": "The unit of the world: kind label, name, subtext. Variants: AI (wash, circle marker), output (2px orange), next (dashed, no shadow).",
+      "html": "<div style=\"display:flex;gap:16px;flex-wrap:wrap\"><a class=\"ds-node\" href=\"#\" style=\"--k:#2f6bff\"><span class=\"ds-kind\">backend</span><b>Rails · Ruby on Jets</b><small>bots and APIs</small></a><a class=\"ds-node ds-node-ai\" href=\"#\" style=\"--k:#ff4f12\"><span class=\"ds-kind is-ai\">ai</span><b>Applied AI</b><small>LLMs and agents</small></a><a class=\"ds-node ds-node-ai ds-node-out\" href=\"#\" style=\"--k:#ff4f12\"><span class=\"ds-kind is-ai\">today</span><b>Finwaise</b><small>AI-native ERP</small></a><a class=\"ds-node ds-node-next\" href=\"#\" style=\"--k:#0e1116\"><span class=\"ds-kind\">next</span><b>Your team</b><small>remote</small></a></div>",
+      "css": ".ds-kind{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono,'Geist Mono',ui-monospace,monospace);font-size:12px;line-height:1;color:var(--ink-3,#626a77)}.ds-kind::before{content:'';width:9px;height:9px;border-radius:2px;background:var(--k,var(--k-build,#2f6bff))}.ds-kind.is-ai::before{border-radius:50%}.ds-node{display:inline-flex;flex-direction:column;gap:4px;min-width:170px;padding:10px 12px;border:1px solid var(--line,#dde1e7);border-radius:12px;background:var(--surface,#fff);box-shadow:var(--shadow,0 1px 2px rgb(14 17 22 / .07),0 3px 8px -4px rgb(14 17 22 / .14));color:var(--ink,#0e1116);font-family:var(--sans,'Geist',system-ui,sans-serif);line-height:1.3;text-decoration:none;transition:border-color 200ms ease,transform 200ms cubic-bezier(.23,1,.32,1)}.ds-node b{font-size:14px;font-weight:650;letter-spacing:-.01em}.ds-node small{font-size:12px;color:var(--ink-3,#626a77)}.ds-node:hover{border-color:var(--ink-3,#626a77)}.ds-node:active{transform:scale(.98)}.ds-node:focus-visible{outline:2px solid var(--k-build,#2f6bff);outline-offset:3px}.ds-node-ai{background:var(--ai-soft,#fff1ea);border-color:color-mix(in srgb,var(--ai,#ff4f12) 70%,var(--line,#dde1e7))}.ds-node-out{border-width:2px;border-color:var(--ai,#ff4f12)}.ds-node-out b{font-size:17px}.ds-node-next{background:transparent;box-shadow:none;border-style:dashed;border-color:var(--ink-3,#626a77)}"
+    },
+    {
+      "name": "Canvas",
+      "kind": "custom",
+      "refersTo": "canvas",
+      "description": "Dot-grid container holding ports, orthogonal gutter edges, a flow token and nodes. Reduced motion hides the token.",
+      "html": "<figure class=\"ds-canvas\"><svg viewBox=\"0 0 420 160\" aria-hidden=\"true\"><path class=\"ds-edge\" d=\"M150 50 H178 Q186 50 186 58 V102 Q186 110 194 110 H250\"/><path class=\"ds-edge ds-edge-ai\" d=\"M150 50 H250\"/><circle class=\"ds-port\" cx=\"150\" cy=\"50\" r=\"3.5\"/><circle class=\"ds-port\" cx=\"250\" cy=\"50\" r=\"3.5\"/><circle class=\"ds-port\" cx=\"250\" cy=\"110\" r=\"3.5\"/><circle class=\"ds-flow\" r=\"4.5\" fill=\"#ff4f12\"><animateMotion dur=\"3s\" repeatCount=\"indefinite\" path=\"M150 50 H250\"/></circle></svg><figcaption>my experience, as a graph</figcaption></figure>",
+      "css": ".ds-canvas{position:relative;margin:0;width:420px;max-width:100%;aspect-ratio:420/160;border:1px solid var(--line,#dde1e7);border-radius:18px;background-color:var(--surface,#fff);background-image:radial-gradient(var(--dot,#cdd2d9) 1.2px,transparent 1.2px);background-size:22px 22px;overflow:hidden}.ds-canvas svg{position:absolute;inset:0;width:100%;height:100%}.ds-edge{fill:none;stroke:var(--ink-3,#626a77);stroke-width:1.5;opacity:.5;transition:opacity 200ms ease}.ds-edge-ai{stroke:var(--ai,#ff4f12);opacity:.85}.ds-port{fill:var(--surface,#fff);stroke:var(--ink-3,#626a77);stroke-width:1.5}.ds-canvas figcaption{position:absolute;left:14px;bottom:10px;font-family:var(--mono,'Geist Mono',ui-monospace,monospace);font-size:12px;color:var(--ink-3,#626a77)}.ds-canvas:hover .ds-edge:not(.ds-edge-ai){opacity:.12}.ds-canvas:hover .ds-edge-ai{opacity:1;stroke-width:2}.ds-canvas:hover .ds-flow{opacity:0}@media (prefers-reduced-motion:reduce){.ds-flow{display:none}}"
+    },
+    {
+      "name": "Bento Cell with Capability List",
+      "kind": "card",
+      "refersTo": "cell",
+      "description": "Skill cell: kind-square head, prose, category to capability rows in a definition list.",
+      "html": "<article class=\"ds-cell\" style=\"--k:#0f8a5a\"><h3>Infrastructure</h3><p>50+ production environments at 99.9% uptime.</p><dl><div><dt>cloud</dt><dd>AWS, DigitalOcean</dd></div><div><dt>containers</dt><dd>Docker</dd></div><div><dt>delivery</dt><dd>CI/CD, Git</dd></div></dl></article>",
+      "css": ".ds-cell{display:flex;flex-direction:column;gap:12px;max-width:380px;padding:24px;border:1px solid var(--line,#dde1e7);border-radius:18px;background:var(--surface,#fff);color:var(--ink,#0e1116);font-family:var(--sans,'Geist',system-ui,sans-serif)}.ds-cell h3{display:flex;align-items:center;gap:10px;margin:0;font-size:22px;font-weight:700;letter-spacing:-.025em;line-height:1.08}.ds-cell h3::before{content:'';width:10px;height:10px;border-radius:2px;background:var(--k)}.ds-cell p{margin:0;color:var(--ink-2,#474f5c);font-size:16px;line-height:1.6}.ds-cell dl{display:grid;gap:6px;margin:0;padding-top:12px;border-top:1px solid var(--line,#dde1e7)}.ds-cell dl div{display:grid;grid-template-columns:11ch minmax(0,1fr);gap:12px;align-items:baseline}.ds-cell dt{font-family:var(--mono,'Geist Mono',ui-monospace,monospace);font-size:12px;color:var(--ink-3,#626a77)}.ds-cell dd{margin:0;font-size:14.5px}"
+    },
+    {
+      "name": "AI Cell (inverted)",
+      "kind": "card",
+      "refersTo": "cell-ai",
+      "description": "The one inverted bento cell for applied AI, spanning 7 columns and 2 rows.",
+      "html": "<article class=\"ds-cell-ai\"><h3>Applied AI</h3><p>Language models in real product: data, validation, cost and real users.</p><dl><div><dt>models</dt><dd>Claude, OpenAI, Gemini</dd></div><div><dt>agents</dt><dd>tool use, MCP, prompt engineering</dd></div></dl></article>",
+      "css": ".ds-cell-ai{display:flex;flex-direction:column;gap:12px;max-width:520px;padding:24px;border:1px solid var(--ink,#0e1116);border-radius:18px;background:var(--ink,#0e1116);color:var(--bg,#f4f5f7);font-family:var(--sans,'Geist',system-ui,sans-serif)}.ds-cell-ai h3{display:flex;align-items:center;gap:10px;margin:0;font-size:clamp(28px,3vw,38px);font-weight:700;letter-spacing:-.025em;line-height:1.08}.ds-cell-ai h3::before{content:'';width:10px;height:10px;border-radius:50%;background:var(--ai,#ff4f12)}.ds-cell-ai p{margin:0;font-size:17px;color:color-mix(in srgb,var(--bg,#f4f5f7) 78%,transparent)}.ds-cell-ai dl{display:grid;gap:6px;margin:0;padding-top:12px;border-top:1px solid color-mix(in srgb,var(--bg,#f4f5f7) 18%,transparent)}.ds-cell-ai dl div{display:grid;grid-template-columns:13ch minmax(0,1fr);gap:12px;align-items:baseline}.ds-cell-ai dt{font-family:var(--mono,'Geist Mono',ui-monospace,monospace);font-size:12px;color:color-mix(in srgb,var(--bg,#f4f5f7) 62%,transparent)}.ds-cell-ai dd{margin:0;font-size:14.5px}"
+    },
+    {
+      "name": "Project Registry Row",
+      "kind": "custom",
+      "refersTo": "proj",
+      "description": "Group head over a graphite rule; project rows with external arrow, mono date and mono stack line.",
+      "html": "<div class=\"ds-reg\" style=\"--k:#2f6bff\"><div class=\"ds-reg-head\"><h3>Platforms and consulting</h3></div><div class=\"ds-proj\"><p class=\"ds-proj-name\"><a href=\"#\">küikmatch<svg viewBox=\"0 0 12 12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M3 9 9 3M4 3h5v5\"/></svg></a></p><p class=\"ds-proj-when\">2020 - now</p><p class=\"ds-proj-desc\">Platform for entrepreneurs: academy, communities, memberships. 3,000+ users.</p><p class=\"ds-proj-stack\">WordPress Multisite · BuddyBoss · Stripe</p></div></div>",
+      "css": ".ds-reg{max-width:560px;font-family:var(--sans,'Geist',system-ui,sans-serif);color:var(--ink,#0e1116)}.ds-reg-head{padding-bottom:12px;margin-bottom:8px;border-bottom:1px solid var(--ink,#0e1116)}.ds-reg-head h3{display:flex;align-items:center;gap:10px;margin:0;font-size:20px;font-weight:700;letter-spacing:-.025em}.ds-reg-head h3::before{content:'';width:10px;height:10px;border-radius:2px;background:var(--k)}.ds-proj{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;padding-block:16px}.ds-proj p{margin:0}.ds-proj-name{font-size:18px;font-weight:650;letter-spacing:-.015em}.ds-proj-name a{color:inherit;text-decoration:none}.ds-proj-name a:hover{text-decoration:underline}.ds-proj-name svg{width:11px;height:11px;margin-left:5px;color:var(--ink-3,#626a77);transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-proj-name a:hover svg{transform:translate(2px,-2px)}.ds-proj-when,.ds-proj-stack{font-family:var(--mono,'Geist Mono',ui-monospace,monospace);font-size:12.5px;color:var(--ink-3,#626a77)}.ds-proj-when{padding-top:4px}.ds-proj-desc,.ds-proj-stack{grid-column:1/-1}.ds-proj-desc{color:var(--ink-2,#474f5c);font-size:15.5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Career Graph",
+    "overview": "The page is a builder's node canvas. A cool grey workspace holds white nodes with a hairline rule and a soft tinted shadow; inside a canvas, a 22px dot grid sits underneath, and orthogonal edges run through the gutters between columns, entering and leaving each node at a small port. Every skill, job, project group and heading carries a kind: base (ink), build (blue), ops (green) or AI (signal orange). The kind square is the thread that continues from the graph into the bento, the Finwaise case, the project registry and the experience list, so the whole CV reads as one graph that ends at a dashed \"next node\": the reader's team.\n\nThe tone is a precise engineering tool, not a showcase. Geist carries display and body at heavy, tightly tracked weights; Geist Mono is reserved for metadata (kind labels, dates, stack lines, data-list terms). One accent, signal orange, marks AI and the output a flow converges on; everything else stays graphite on grey. Dark mode is the same canvas at night, not a different world.\n\nMotion has a job: small tokens flow along edges toward the output, and focusing a node keeps its neighbourhood lit while the rest of the graph recedes. Reduced motion hides the tokens entirely and leaves the static graph intact. Rejected: the earlier transit-map/timeline world, the dark neon card grid, and any pitch of him as only a \"workflows and agents\" builder.",
+    "keyCharacteristics": [
+      "Node canvas: white nodes, 1px hairline, soft shadow, 12px corners, ports, orthogonal gutter edges over a 22px dot grid.",
+      "Four node kinds coded by a 9-10px square; AI is the only circle.",
+      "One accent (signal orange) for AI and convergence outputs.",
+      "Geist for words, Geist Mono for metadata only.",
+      "8px unit; section rhythm of 96px; content capped at 1280px.",
+      "Flow tokens and focus dimming as the only ambient motion."
+    ],
+    "rules": [
+      {
+        "name": "The One Signal Rule",
+        "body": "Orange appears only on the AI kind, on output nodes where a flow converges, on the primary button's hover, and on two emphasised phrases. If a new element is orange and is neither AI nor an output, it is wrong.",
+        "section": "colors"
+      },
+      {
+        "name": "The Kind Square Rule",
+        "body": "Category is shown by a small square in the kind color (2px corners), never by a colored background block or a colored heading. The AI kind is the only circle.",
+        "section": "colors"
+      },
+      {
+        "name": "The Metadata-Only Mono Rule",
+        "body": "Geist Mono labels data: a node's kind, a date, a stack line, a term in a definition list, a canvas caption. It never sits above a heading as an eyebrow or kicker. Headings carry only their kind square.",
+        "section": "typography"
+      },
+      {
+        "name": "The Heavy-Tight Rule",
+        "body": "Display and headline sizes run 750-800 with negative tracking (-0.04em or tighter); nothing above 30px is set at regular weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only-Nodes-Float Rule",
+        "body": "Shadows belong to nodes. Cells, canvases, buttons and the header stay flat; if something else needs separation, use the hairline.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do give every skill, project group and graph node a kind (base, build, ops, ai) and show it with the 9-10px square; make the AI kind a circle.",
+      "Do keep orange for AI, convergence outputs, the primary button hover and at most a phrase of emphasised text per view.",
+      "Do route canvas edges orthogonally through the gutters with 8px rounded elbows and a port where they meet a node.",
+      "Do keep the dot grid inside canvases; the page background stays plain canvas grey.",
+      "Do present tools as category → capability rows in a definition list, never as a loose cloud of single tool names.",
+      "Do hide flow tokens under reduced motion and keep the static graph complete without them.",
+      "Do turn every canvas into a vertical node list with a left connector on phones.",
+      "Do build spacing from the 8px unit and keep containers rounder than their contents (18 > 12 > 10 > 8 > 2)."
+    ],
+    "donts": [
+      "Don't put a mono eyebrow or kicker above any heading; a heading carries only its kind square.",
+      "Don't add shadows to anything but nodes.",
+      "Don't use orange on a non-AI element that is not a convergence output.",
+      "Don't return to the transit-map/timeline world or a dark neon card grid; dark mode is the same canvas at night.",
+      "Don't set Geist Mono on prose, headings or buttons.",
+      "Don't headline a single tool (an automation product, a model vendor) as a skill; it belongs inside a capability category."
+    ]
+  }
+}

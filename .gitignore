@@ -1,0 +1,6 @@
+# Local Claude Code settings (may contain credentials)
+.claude/
+.impeccable/review/
+.impeccable/mocks/
+.DS_Store
+scripts/cv/
