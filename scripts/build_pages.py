@@ -10,7 +10,7 @@ Bump TODAY when content changes (it feeds dateModified and the footer date).
 import json, os, sys
 
 ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TODAY = '2026-10-13'
+TODAY = '2026-10-14'
 
 # ---------------------------------------------------------------- geometry
 GW, GH, NW, NH = 760, 600, 158, 96
@@ -128,15 +128,15 @@ DL = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2
 T = {
  'es': dict(
   lang='es', path='', cv_file='Kevin-Pelozo-Retamar-CV-2026-ES.pdf', other='/en/', other_label='EN', other_lang='en', other_aria='Read in English',
-  title='Kevin Pelozo | Software &amp; AI Engineer en Costa Rica',
-  desc='Kevin Pelozo Retamar, Software Engineer en Costa Rica. Full stack (TypeScript, React, WordPress, APIs, AWS) e IA aplicada en producción, hoy en Finwaise.',
+  title='Kevin Pelozo Retamar | Software &amp; AI Engineer en Costa Rica',
+  desc='Kevin Pelozo Retamar, Software &amp; AI Engineer en Costa Rica. Más de 5 años en full stack con TypeScript, React, APIs y AWS, e IA en producción. Hoy en Finwaise.',
   og_desc='Programo de punta a punta y sumo IA en producción. Hoy en Finwaise, un ERP con IA nativa.',
   og_alt='Kevin Pelozo, Software &amp; AI Engineer: su experiencia como un grafo de nodos que converge en Finwaise.',
   locale='es_CR', locale_alt='en_US',
   skip='Saltar al contenido', home='Kevin Pelozo, inicio', navlabel='Principal',
   nav=[('#skills', 'Habilidades'), ('#finwaise', 'Finwaise'), ('#work', 'Proyectos'), ('#experience', 'Experiencia'), ('#contact', 'Contacto')],
   role='Software Engineer · <em>IA aplicada</em>',
-  lede='Programo de punta a punta: TypeScript, React, WordPress, APIs e infraestructura en AWS. Hoy sumo IA a todo eso, en producción.',
+  lede='Programo de punta a punta: TypeScript, React, APIs, infraestructura en AWS y WordPress a medida. Hoy sumo IA a todo eso, en producción.',
   cv='Descargar CV', mail='Escribime',
   graph_label='Grafo de mi experiencia: formación, web, plataforma e IA convergen en Finwaise, junto a mis proyectos propios.',
   graph_note='mi experiencia, como un grafo',
@@ -225,7 +225,7 @@ T = {
          ('ciudadanía', ['<strong>Polaca</strong> y <strong>argentina</strong>', 'Vivo en Costa Rica'])],
   contact_title='<em>Hablemos</em>.',
   contact_lede='Para proyectos, colaboraciones o para conversar sobre software e IA en producción. Respondo rápido por correo o LinkedIn.',
-  updated=f'Actualizado el <time datetime="{TODAY}">13 de octubre de 2026</time>.',
+  updated=f'Actualizado el <time datetime="{TODAY}">14 de octubre de 2026</time>.',
  ),
 }
 
@@ -239,15 +239,15 @@ EN_NODES = {
 es = T['es']
 T['en'] = dict(es,
   lang='en', path='en/', cv_file='Kevin-Pelozo-Retamar-CV-2026.pdf', other='/', other_label='ES', other_lang='es', other_aria='Leer en español',
-  title='Kevin Pelozo | Software &amp; AI Engineer in Costa Rica',
-  desc='Kevin Pelozo Retamar, Software Engineer in Costa Rica. Full stack (TypeScript, React, WordPress, APIs, AWS) and applied AI in production, now at Finwaise.',
+  title='Kevin Pelozo Retamar | Software &amp; AI Engineer in Costa Rica',
+  desc='Kevin Pelozo Retamar, Software &amp; AI Engineer in Costa Rica. 5+ years of full stack with TypeScript, React, APIs and AWS, plus AI in production. Now at Finwaise.',
   og_desc='I build end to end and bring AI into production. Now at Finwaise, an AI-native ERP.',
   og_alt='Kevin Pelozo, Software &amp; AI Engineer: his experience as a node graph converging on Finwaise.',
   locale='en_US', locale_alt='es_CR',
   skip='Skip to content', home='Kevin Pelozo, home', navlabel='Main',
   nav=[('#skills', 'Skills'), ('#finwaise', 'Finwaise'), ('#work', 'Projects'), ('#experience', 'Experience'), ('#contact', 'Contact')],
   role='Software Engineer · <em>applied AI</em>',
-  lede='I build end to end: TypeScript, React, WordPress, APIs and AWS infrastructure. Now I bring AI into all of it, in production.',
+  lede='I build end to end: TypeScript, React, APIs, AWS infrastructure and custom WordPress. Now I bring AI into all of it, in production.',
   cv='Download CV', mail='Email me',
   graph_label='Graph of my experience: education, web, platform and AI converge on Finwaise, next to my own projects.',
   graph_note='my experience, as a graph',
@@ -324,7 +324,7 @@ T['en'] = dict(es,
          ('citizenship', ['<strong>Polish</strong> and <strong>Argentinian</strong>', 'Based in Costa Rica'])],
   contact_title='<em>Let\'s talk</em>.',
   contact_lede='For projects, collaborations or a conversation about software and AI in production. I reply quickly by email or LinkedIn.',
-  updated=f'Updated <time datetime="{TODAY}">October 13, 2026</time>.',
+  updated=f'Updated <time datetime="{TODAY}">October 14, 2026</time>.',
 )
 
 # ---------------------------------------------------------------- render
@@ -377,15 +377,15 @@ def ld(t):
     graph = {
       '@context': 'https://schema.org',
       '@graph': [
-        {'@type': 'WebSite', '@id': 'https://pelozok.github.io/#website', 'url': 'https://pelozok.github.io/', 'name': 'Kevin Pelozo',
-         'alternateName': ['Kevin Pelozo Retamar', 'pelozok'], 'inLanguage': ['es', 'en']},
+        {'@type': 'WebSite', '@id': 'https://pelozok.github.io/#website', 'url': 'https://pelozok.github.io/', 'name': 'Kevin Pelozo Retamar',
+         'alternateName': ['Kevin Pelozo', 'pelozok'], 'inLanguage': ['es', 'en']},
         {'@type': 'ProfilePage', '@id': url + '#profilepage', 'url': url, 'name': t['title'].replace('&amp;', '&'), 'inLanguage': t['lang'],
          'isPartOf': {'@id': 'https://pelozok.github.io/#website'}, 'dateCreated': '2025-05-20', 'dateModified': TODAY,
          'mainEntity': {'@id': 'https://pelozok.github.io/#person'}},
         {'@type': 'Person', '@id': 'https://pelozok.github.io/#person', 'name': 'Kevin Daniel Pelozo Retamar',
          'alternateName': ['Kevin Pelozo', 'Kevin Pelozo Retamar', 'pelozok'], 'givenName': 'Kevin', 'familyName': 'Pelozo Retamar',
          'url': 'https://pelozok.github.io/', 'image': 'https://pelozok.github.io/assets/img/og-image.png', 'email': 'mailto:kevindp2008@gmail.com',
-         'jobTitle': 'Software Engineer & AI Engineer', 'description': t['desc'],
+         'jobTitle': 'Software Engineer & AI Engineer', 'description': t['desc'].replace('&amp;', '&'),
          'worksFor': {'@type': 'Organization', 'name': 'deLaGuayaba S.A.'},
          'alumniOf': {'@type': 'CollegeOrUniversity', 'name': 'Universidad Americana (UAM)'},
          'address': {'@type': 'PostalAddress', 'addressCountry': 'CR'},
@@ -451,8 +451,8 @@ def page(t):
   <link rel="alternate" hreflang="x-default" href="https://pelozok.github.io/">
 
   <meta property="og:type" content="profile">
-  <meta property="og:site_name" content="Kevin Pelozo">
-  <meta property="og:title" content="Kevin Pelozo | Software &amp; AI Engineer">
+  <meta property="og:site_name" content="Kevin Pelozo Retamar">
+  <meta property="og:title" content="Kevin Pelozo Retamar | Software &amp; AI Engineer">
   <meta property="og:description" content="{t['og_desc']}">
   <meta property="og:url" content="{url}">
   <meta property="og:image" content="https://pelozok.github.io/assets/img/og-image.png">
@@ -464,7 +464,7 @@ def page(t):
   <meta property="profile:first_name" content="Kevin">
   <meta property="profile:last_name" content="Pelozo Retamar">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kevin Pelozo | Software &amp; AI Engineer">
+  <meta name="twitter:title" content="Kevin Pelozo Retamar | Software &amp; AI Engineer">
   <meta name="twitter:description" content="{t['og_desc']}">
   <meta name="twitter:image" content="https://pelozok.github.io/assets/img/og-image.png">
 
